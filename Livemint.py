@@ -10,7 +10,7 @@ driver.get('https://www.hindustantimes.com/')
 driver.maximize_window()
 time.sleep(15)
 E_paper = driver.find_element(By.CSS_SELECTOR, '.epaper icon').click()
-
+time.sleep()
 username = 'nsnandhasantha@gmail.com'
 password = 'Nsnandha@9986302295'
 
